@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-lexishift",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-std=c11",
+                "-Wall",
+                "-Wextra",
+                "src/main.c",
+                "src/input.c",
+                "src/matrix_intro.c",
+                "src/trie.c",
+                "src/ui.c",
+                "-Iinclude",
+                "-o",
+                "lexishift.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
