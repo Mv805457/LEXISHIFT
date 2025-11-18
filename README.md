@@ -117,10 +117,7 @@ LEXISHIFT/
 ├── lexishift_gui.exe     # Raylib UI executable  
 └── README.md  
 👥 Contributors
-Name	Role
-Madhav Vinod	Core Trie engine, DLL, Python GUI, debugging, GitHub
-Nikhil Sai	Trie logic, prefix algorithm, performance tuning
-Harshith	Raylib GUI development, launcher & UI design
+Madhav Vinod
 
 🙏 Acknowledgements
 Raylib – Simple and powerful graphics library
